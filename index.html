@@ -32,8 +32,7 @@
         <div class="hero-wrapper-description">
             <h3>Hypertea © - normalan pritisak</h3>
             <h3>već od prve upotrebe. Trajan rezultat.</h3>
-        </div>
-        <div class="hero-wrapper-description">
+            <br>
             <p>Utiče na uzrok bolesti smanjujući rizik od</p>
             <p>moždanog udara i infarkta na nulu!</p>
         </div>
@@ -66,80 +65,84 @@
     </section>
 
     <section id="form-wrapper">
-        <img class="tea-img" src="img/form-tea.png" alt="form-tea">
-        <form>
-            <img src="img/discount.png" alt="discount">
-            <div class="forma-okvir">
-                <div class="form-left">
-                    <p>Kolicina robe je ograničena:</p>
-                    <input type="text" id="kolicina_komada" name="kolicina_komada" placeholder="9 komada">
-                    <div class="cijena-komada">
-                        <div class="puna-cijena">
-                            <p>Puna cijena:</p>
-                            <h3>110 KM</h3>
+        <div class="form">
+            <img class="tea-img" src="img/form-tea.png" alt="form-tea">
+            <form>
+                <img src="img/discount.png" alt="discount">
+                <div class="forma-okvir">
+                    <div class="form-left">
+                        <p>Kolicina robe je ograničena:</p>
+                        <input type="text" id="kolicina_komada" name="kolicina_komada" placeholder="9 komada">
+                        <div class="cijena-komada">
+                            <div class="puna-cijena">
+                                <p>Puna cijena:</p>
+                                <h3>110 KM</h3>
+                            </div>
+                            <div class="snižena-cijena">
+                                <p>Snižena cijena:</p>
+                                <h3>55 KM</h3>
+                            </div>
                         </div>
-                        <div class="snižena-cijena">
-                            <p>Snižena cijena:</p>
-                            <h3>55 KM</h3>
-                        </div>
+                        <select id="država" name="država">
+                            <option value="BiH">Bosna i Hercegovina</option>
+                            <option value="SRB">Srbija</option>
+                            <option value="CRO">Croatia</option>
+                            <option value="MNE">Montenegro</option>
+                        </select>
                     </div>
-                    <select id="država" name="država">
-                        <option value="BiH">Bosna i Hercegovina</option>
-                        <option value="SRB">Srbija</option>
-                        <option value="CRO">Croatia</option>
-                        <option value="MNE">Montenegro</option>
-                    </select>
+                    <div class="forma-right">
+                        <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime:">
+                        <input type="text" id="broj_telefona" name="broj_telefona" placeholder="Unesite svoj broj telefona:">
+                        <input type="number" id="broj_kutija" name="broj_kutija" placeholder="2 = 110 KM">
+                        <p>1 pakovanje = 55 KM</p>
+                        <button>NARUČI</button>
+                    </div>
                 </div>
-                <div class="forma-right">
-                    <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime:">
-                    <input type="number" id="broj_telefona" name="broj_telefona" placeholder="Unesite svoj broj telefona:">
-                    <input type="number" id="broj_kutija" name="broj_kutija" placeholder="2 = 110 KM">
-                    <p>1 pakovanje = 55 KM</p>
-                    <button>NARUČI</button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </section>
 
     <section id="symptomus-wrapper">
-        <div class="symptomus-wrapper-left">
-            <div class="symptomus-headers">
-                <h2>Pregledajte se!</h2>
-                <h2>Imate li bar jedan od sljedećih simptoma?</h2>
+        <div class="symptomus">
+            <div class="symptomus-wrapper-left">
+                <div class="symptomus-headers">
+                    <h2>Pregledajte se!</h2>
+                    <h2>Imate li bar jedan od sljedećih simptoma?</h2>
+                </div>
+                <div class="symptomus-list">
+                    <div class="symptomus-list-text">
+                        <ul>
+                            <li><span>&#10003;</span>Glavobolja</li>
+                            <li><span>&#10003;</span>Pojava srčanog ritma</li>
+                            <li><span>&#10003;</span>Crne tačke pred očima (koje lebde)</li>
+                            <li><span>&#10003;</span>Hronični umor</li>
+                            <li><span>&#10003;</span>Apatija, iritacija, pospanost</li>
+                        </ul>
+                    </div>
+                    <div class="symptomus-list-text">
+                        <ul>
+                            <li><span>&#10003;</span>Edem na licu</li>
+                            <li><span>&#10003;</span>Zamagljen vid</li>
+                            <li><span>&#10003;</span>Utrnuli i hladni prsti</li>
+                            <li><span>&#10003;</span>Prekomjerno znojenje</li>
+                            <li><span>&#10003;</span>Nagle promjene pritiska</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="green-box">
+                    <div class="green-box-obj"></div>
+                    <div class="green-box-title">
+                        <h2>U PITANJU JE HIPERTENZIJA!</h2>
+                    </div>
+                    <div class="green-box-content">
+                        <h2>Važno!</h2>
+                        <p>67% pacijenata s hipertenzijom u Bosni i Hercegovini uopće nisu svjesni da su bolesni.</p>
+                    </div>
+                </div>
             </div>
-            <div class="symptomus-list">
-                <div class="symptomus-list-text">
-                    <ul>
-                        <li><span>&#10003;</span>Glavobolja</li>
-                        <li><span>&#10003;</span>Pojava srčanog ritma</li>
-                        <li><span>&#10003;</span>Crne tačke pred očima (koje lebde)</li>
-                        <li><span>&#10003;</span>Hronični umor</li>
-                        <li><span>&#10003;</span>Apatija, iritacija, pospanost</li>
-                    </ul>
-                </div>
-                <div class="symptomus-list-text">
-                    <ul>
-                        <li><span>&#10003;</span>Edem na licu</li>
-                        <li><span>&#10003;</span>Zamagljen vid</li>
-                        <li><span>&#10003;</span>Utrnuli i hladni prsti</li>
-                        <li><span>&#10003;</span>Prekomjerno znojenje</li>
-                        <li><span>&#10003;</span>Nagle promjene pritiska</li>
-                    </ul>
-                </div>
+            <div class="symptomus-wrapper-right">
+                <img src="img/man.png" alt="man err">
             </div>
-            <div class="green-box">
-                <div class="green-box-title">
-                    <h2>U PITANJU JE HIPERTENZIJA!</h2>
-                </div>
-                <div class="green-box-obj"></div>
-                <div class="green-box-content">
-                    <h2>Važno!</h2>
-                    <p>67% pacijenata s hipertenzijom u Bosni i Hercegovini uopće nisu svjesni da su bolesni.</p>
-                </div>
-            </div>
-        </div>
-        <div class="symptomus-wrapper-right">
-            <img src="img/man.png" alt="man err">
         </div>
     </section>
 
@@ -167,6 +170,7 @@
             </div>
         </div>
     </section>
+
     <section id="discovery">
         <h2>Epohalno otkriće naučnika</h2>
         <p>Bosanskohercegovačkim naučnicima iz Nacionalnog centra za flebologiju bilo je potrebno 8 godina da dizajniraju ovaj
@@ -254,44 +258,47 @@
     </section>
 
     <section id="form-wrapper">
-        <img class="tea-img" src="img/form-tea.png" alt="form-tea">
-        <form>
-            <img src="img/discount.png" alt="discount">
-            <div class="forma-okvir">
-                <div class="form-left">
-                    <p>Kolicina robe je ograničena:</p>
-                    <input type="text" id="kolicina_komada" name="kolicina_komada" placeholder="9 komada">
-                    <div class="cijena-komada">
-                        <div class="puna-cijena">
-                            <p>Puna cijena:</p>
-                            <h3>110 KM</h3>
+        <div class="form">
+            <img class="tea-img" src="img/form-tea.png" alt="form-tea">
+            <form>
+                <img src="img/discount.png" alt="discount">
+                <div class="forma-okvir">
+                    <div class="form-left">
+                        <p>Kolicina robe je ograničena:</p>
+                        <input type="text" id="kolicina_komada" name="kolicina_komada" placeholder="9 komada">
+                        <div class="cijena-komada">
+                            <div class="puna-cijena">
+                                <p>Puna cijena:</p>
+                                <h3>110 KM</h3>
+                            </div>
+                            <div class="snižena-cijena">
+                                <p>Snižena cijena:</p>
+                                <h3>55 KM</h3>
+                            </div>
                         </div>
-                        <div class="snižena-cijena">
-                            <p>Snižena cijena:</p>
-                            <h3>55 KM</h3>
-                        </div>
+                        <select id="država" name="država">
+                            <option value="BiH">Bosna i Hercegovina</option>
+                            <option value="SRB">Srbija</option>
+                            <option value="CRO">Croatia</option>
+                            <option value="MNE">Montenegro</option>
+                        </select>
                     </div>
-                    <select id="država" name="država">
-                        <option value="BiH">Bosna i Hercegovina</option>
-                        <option value="SRB">Srbija</option>
-                        <option value="CRO">Croatia</option>
-                        <option value="MNE">Montenegro</option>
-                    </select>
+                    <div class="forma-right">
+                        <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime:">
+                        <input type="text" id="broj_telefona" name="broj_telefona"
+                            placeholder="Unesite svoj broj telefona:">
+                        <input type="number" id="broj_kutija" name="broj_kutija" placeholder="2 = 110 KM">
+                        <p>1 pakovanje = 55 KM</p>
+                        <button>NARUČI</button>
+                    </div>
                 </div>
-                <div class="forma-right">
-                    <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime:">
-                    <input type="number" id="broj_telefona" name="broj_telefona" placeholder="Unesite svoj broj telefona:">
-                    <input type="number" id="broj_kutija" name="broj_kutija" placeholder="2 = 110 KM">
-                    <p>1 pakovanje = 55 KM</p>
-                    <button>NARUČI</button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </section>
 
     <section id="effectiveness-wrapper">
         <div class="effectiveness">
-            <img src="img/plant.png" class="plant" alt="plant err">
+            <img class="plant" src="img/plant.png" alt="plant err">
             <div class="eff-text">
                 <h2>Djelotvornost preparata Hypertea © dokazana je kroz klinička ispitivanja</h2>
                 <br>
@@ -436,39 +443,42 @@
     </section>
 
     <section id="form-wrapper">
-        <img class="tea-img" src="img/form-tea.png" alt="form-tea">
-        <form>
-            <img src="img/discount.png" alt="discount">
-            <div class="forma-okvir">
-                <div class="form-left">
-                    <p>Kolicina robe je ograničena:</p>
-                    <input type="text" id="kolicina_komada" name="kolicina_komada" placeholder="9 komada">
-                    <div class="cijena-komada">
-                        <div class="puna-cijena">
-                            <p>Puna cijena:</p>
-                            <h3>110 KM</h3>
+        <div class="form">
+            <img class="tea-img" src="img/form-tea.png" alt="form-tea">
+            <form>
+                <img src="img/discount.png" alt="discount">
+                <div class="forma-okvir">
+                    <div class="form-left">
+                        <p>Kolicina robe je ograničena:</p>
+                        <input type="text" id="kolicina_komada" name="kolicina_komada" placeholder="9 komada">
+                        <div class="cijena-komada">
+                            <div class="puna-cijena">
+                                <p>Puna cijena:</p>
+                                <h3>110 KM</h3>
+                            </div>
+                            <div class="snižena-cijena">
+                                <p>Snižena cijena:</p>
+                                <h3>55 KM</h3>
+                            </div>
                         </div>
-                        <div class="snižena-cijena">
-                            <p>Snižena cijena:</p>
-                            <h3>55 KM</h3>
-                        </div>
+                        <select id="država" name="država">
+                            <option value="BiH">Bosna i Hercegovina</option>
+                            <option value="SRB">Srbija</option>
+                            <option value="CRO">Croatia</option>
+                            <option value="MNE">Montenegro</option>
+                        </select>
                     </div>
-                    <select id="država" name="država">
-                        <option value="BiH">Bosna i Hercegovina</option>
-                        <option value="SRB">Srbija</option>
-                        <option value="CRO">Croatia</option>
-                        <option value="MNE">Montenegro</option>
-                    </select>
+                    <div class="forma-right">
+                        <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime:">
+                        <input type="text" id="broj_telefona" name="broj_telefona"
+                            placeholder="Unesite svoj broj telefona:">
+                        <input type="number" id="broj_kutija" name="broj_kutija" placeholder="2 = 110 KM">
+                        <p>1 pakovanje = 55 KM</p>
+                        <button>NARUČI</button>
+                    </div>
                 </div>
-                <div class="forma-right">
-                    <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime:">
-                    <input type="number" id="broj_telefona" name="broj_telefona" placeholder="Unesite svoj broj telefona:">
-                    <input type="number" id="broj_kutija" name="broj_kutija" placeholder="2 = 110 KM">
-                    <p>1 pakovanje = 55 KM</p>
-                    <button>NARUČI</button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </section>
 
     <footer>
